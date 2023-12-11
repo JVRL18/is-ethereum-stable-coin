@@ -4,7 +4,7 @@
 
 or
 
-`npm i is-ethereum-coin`
+`npm i is-ethereum-stable-coin`
 
 ## 👷 Usage
 
