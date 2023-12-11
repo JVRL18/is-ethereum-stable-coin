@@ -1,6 +1,12 @@
 {
   "name": "is-ethereum-stable-coin",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "jay",
+  "description": "checks if the address is a ethereum stable coin or gigantic one like usdc,usdc..."
 }
