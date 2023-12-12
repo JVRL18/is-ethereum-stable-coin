@@ -18,5 +18,5 @@ export default function isEthereumStableCoin(address) {
 
     const normalizedTokens = tokens.map(e => { return e.toLowerCase() })
 
-    return normalizedTokens.includes(e.toLowerCase())
+    return normalizedTokens.includes(address.toLowerCase())
 }
