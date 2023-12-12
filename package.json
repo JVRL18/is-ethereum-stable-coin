@@ -1,6 +1,6 @@
 {
   "name": "is-ethereum-stable-coin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.mjs",
   "license": "MIT",
   "scripts": {
