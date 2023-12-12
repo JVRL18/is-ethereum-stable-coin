@@ -15,6 +15,8 @@ const tokens = [
 
 export default function isEthereumStableCoin(address) {
     if (!address) throw Error("No address was provided.")
-    
-    return tokens.some(e => { e.toLowerCase() == address.toLowerCase() })
+
+    const normalizedTokens = tokens.map(e => { return e.toLowerCase() })
+
+    return normalizedTokens.includes(e.toLowerCase())
 }
